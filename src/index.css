@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap");
+
+/* resets */
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	padding: 0;
+	font-family: "Outfit", sans-serif;
+	font-size: 1rem;
+}
+
+img,
+svg,
+picture {
+	display: block;
+	max-width: 100%;
+}
+
+ul {
+	padding-left: 0;
+	list-style: 0;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+input,
+button,
+textarea {
+	border: none;
+	background: none;
+	outline: none;
+	font: inherit;
+}
+
+/* reusable classes */
+.flex {
+	display: flex;
+}
+
+.grid {
+	display: grid;
+}
